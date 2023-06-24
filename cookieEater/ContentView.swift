@@ -6,6 +6,7 @@ struct ContentView: View {
     @State private var resetDisabled = true
     @State private var eatDisabled = false
     @State private var msgColor = Color.accentColor
+    @State private var ohmygod = 1000000.0
     var body: some View {
         VStack {
             Text("Cookies: \(counter)")
