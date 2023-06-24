@@ -29,7 +29,7 @@ struct ContentView: View {
                     if counter >= 40 {
                         message = "Stop it..."
                         msgColor = .red
-                        eatDisabled = true
+                       eatDisabled = true
                     }
                     if counter <= 30 {
                         resetDisabled = true
@@ -40,7 +40,7 @@ struct ContentView: View {
                 }
             label:{
                 
-                Text("Clcik ME!")
+                Text("Clcik ME!!")
                     .padding()
                     .foregroundColor(.white)
                     .background(.green)
